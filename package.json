@@ -1,0 +1,15 @@
+{
+  "name": "my-finance-app",
+  "version": "1.0.0",
+  "description": "personal finance app",
+  "main": "main.js",
+  "repository": "https://github.com/kebinghill/my-finance-app.git",
+  "author": "Kevin Gil <93kevingil@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^26.2.4"
+  }
+}
