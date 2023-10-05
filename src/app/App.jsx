@@ -1,14 +1,15 @@
 import React from 'react';
-import AppDrawer from '../components/AppDrawer.jsx';
 import Theme from '../utils/Theme.jsx';
+
+import AppDrawer from '../components/AppDrawer.jsx';
+import ConversionContainer from '../components/ConversionContainer.jsx';
 
 const App = () => {
   return (
-    <>
-      <Theme>
-        <AppDrawer></AppDrawer>
-      </Theme>
-    </>
+    <Theme>
+      <AppDrawer></AppDrawer>
+      <ConversionContainer></ConversionContainer>
+    </Theme>
   );
 };
 
